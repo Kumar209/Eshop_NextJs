@@ -128,7 +128,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
         <Horizontal />
 
         <div>
-          <span className="font-semibold">Price:</span> ${product.price}
+          <span className="font-semibold">Price:</span> ₹{product.price}
         </div>
 
         <div>
